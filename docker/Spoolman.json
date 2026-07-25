@@ -18,7 +18,7 @@
     {
       "name": "Config",
       "mode": "rw",
-      "host": "/mnt/cache/appdata/spoolman",
+      "host": "/mnt/internal/appdata/spoolman",
       "container": "/home/app/.local/share/spoolman",
       "description": "Spoolman configuration, database, and settings."
     }
