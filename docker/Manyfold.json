@@ -1,0 +1,67 @@
+{
+  "name": "Manyfold",
+  "repo": "manyfold3d/manyfold-solo:latest",
+  "network": "bridge",
+  "custom_ip": null,
+  "default_shell": "bash",
+  "privileged": false,
+  "extra_parameters": "--restart=unless-stopped",
+  "post_parameters": null,
+  "web_ui_url": "http://[IP]:[PORT:8000]/",
+  "readme_url": "https://github.com/manyfold3d/manyfold",
+  "icon": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/manyfold.png",
+  "category": [ "Productivity" ],
+  "project": null,
+  "support": "https://github.com/manyfold3d/manyfold/issues",
+  "description": "Manyfold is an open source, self-hosted web application for managing a collection of 3d models, particularly focused on 3d printing. Visit manyfold.app for more details, installation instructions, and user and administration guides!",
+   "paths": [
+    {
+      "name": "Config",
+      "mode": "rw",
+      "host": "/mnt/internal/appdata/manyfold/config",
+      "container": "/config",
+      "description": "Manyfold configuration"
+    },
+    {
+        "name": "Models",
+        "mode": "rw",
+        "host": "/mnt/internal/appdata/manyfold/models",
+        "container": "/models",
+        "description": "Manyfold models"
+    }
+  ],
+  "ports": [
+    {
+      "name": "WebUI",
+      "protocol": "tcp",
+      "host": "3214",
+      "container": "3214",
+      "description": ""
+    }
+  ],
+  "variables": [
+    {
+      "name": null,
+      "key": "SECRET_KEY_BASE",
+      "value": "a_nice_long_random_string",
+      "mask": false,
+      "description": null
+    },
+    {
+      "name": null,
+      "key": "PUID",
+      "value": "1000",
+      "mask": false,
+      "description": "User ID for the container."
+    },
+    {
+      "name": null,
+      "key": "PGID",
+      "value": "1000",
+      "mask": false,
+      "description": "Group ID for the container."
+    }
+  ],
+  "devices": [],
+  "gpus": []
+}
