@@ -1,0 +1,53 @@
+{
+  "name": "ConvertX",
+  "repo": "c4illin/convertx",
+  "network": "bridge",
+  "custom_ip": null,
+  "default_shell": "sh",
+  "privileged": false,
+  "extra_parameters": "--restart=unless-stopped",
+  "post_parameters": null,
+  "web_ui_url": "http://[IP]:[PORT:3000]/",
+  "readme_url": "https://github.com/C4illin/ConvertX",
+  "icon": "https://github.com/Fre5h-D/MOS-Templates/blob/main/icons/convertx.png",
+  "category": [ "Utilities" ],
+  "project": null,
+  "support": "https://github.com/C4illin/ConvertX/issues",
+  "description": "A self-hosted online file converter. Supports over a thousand different formats. Written with TypeScript, Bun and Elysia.",
+   "paths": [
+    {
+      "name": "App Data",
+      "mode": "rw",
+      "host": "/mnt/internal/appdata/convertx",
+      "container": "/app/data",
+      "description": "ConvertX app data"
+    }
+  ],
+  "ports": [
+    {
+      "name": "WebUI",
+      "protocol": "tcp",
+      "host": "3000",
+      "container": "3000",
+      "description": null
+    }
+  ],
+  "variables": [
+    {
+      "name": "JWT_SECRET",
+      "key": "JWT_SECRET",
+      "value": "your_jwt_secret_here",
+      "mask": true,
+      "description": "will use randomUUID() if unset"
+    },
+    {
+      "name": "Allow HTTP",
+      "key": "HTTP_ALLOWED",
+      "value": "false",
+      "mask": false,
+      "description": "set this to true if accessing it over a non-https connection"
+    }
+  ],
+  "devices": [],
+  "gpus": []
+}

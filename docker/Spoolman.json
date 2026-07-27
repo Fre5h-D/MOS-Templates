@@ -16,7 +16,7 @@
   "description": "Spoolman is a self-hosted web service designed to help you efficiently manage your 3D printer filament spools and monitor their usage. It acts as a centralized database that seamlessly integrates with popular 3D printing software like OctoPrint and Klipper/Moonraker. When connected, it automatically updates spool weights as printing progresses, giving you real-time insights into filament usage.",
    "paths": [
     {
-      "name": "Config",
+      "name": "App Data",
       "mode": "rw",
       "host": "/mnt/internal/appdata/spoolman",
       "container": "/home/app/.local/share/spoolman",
@@ -29,7 +29,7 @@
       "protocol": "tcp",
       "host": "7912",
       "container": "8000",
-      "description": ""
+      "description": null
     }
   ],
   "variables": [
