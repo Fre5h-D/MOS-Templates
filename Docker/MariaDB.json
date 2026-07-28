@@ -16,11 +16,11 @@
   "description": "MariaDB is a community-developed fork of MySQL intended to maintain compatibility while adding new features and improvements.",
    "paths": [
     {
-      "name": "DB",
+      "name": "DB Data Directory",
       "mode": "rw",
       "host": "/mnt/internal/appdata/mariadb",
       "container": "/var/lib/mysql",
-      "description": "DB data directory."
+      "description": null
     }
   ],
   "ports": [
