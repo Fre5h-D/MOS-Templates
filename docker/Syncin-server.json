@@ -13,7 +13,7 @@
   "category": [ "Productivity" ],
   "project": null,
   "support": "https://github.com/Sync-in/server/issues",
-  "description": "Sync-in is a self-hosted platform for file storage, synchronization, and team collaboration.",
+  "description": "Needs a MariaDB instance for data storage.\n\nSync-in is a self-hosted platform for file storage, synchronization, and team collaboration.",
    "paths": [
     {
       "name": "Data Directory",
@@ -34,7 +34,7 @@
   ],
   "variables": [
     {
-      "name": "TZ",
+      "name": "Timezone",
       "key": "TZ",
       "value": "Europe/Vienna",
       "mask": false,
