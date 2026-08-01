@@ -9,7 +9,7 @@
   "post_parameters": null,
   "web_ui_url": "http://[IP]:[PORT:8000]/",
   "readme_url": "https://github.com/manyfold3d/manyfold",
-  "icon": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/manyfold.png",
+  "icon": "https://cdn.jsdelivr.net/gh/selfhst/icons@main/png/manyfold.png",
   "category": [ "Productivity" ],
   "project": null,
   "support": "https://github.com/manyfold3d/manyfold/issues",
