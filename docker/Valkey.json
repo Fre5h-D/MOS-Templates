@@ -13,7 +13,7 @@
   "category": [ "Utilities" ],
   "project": null,
   "support": "https://github.com/valkey-io/valkey-container/issues",
-  "description": "Valkey is a high-performance data structure server that primarily serves key/value workloads.",
+  "description": "Valkey is an open-source alternative to Redis. It is a high-performance, in-memory key-value store that can be used as a database, cache, and message broker.",
    "paths": [],
   "ports": [],
   "variables": [],
