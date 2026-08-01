@@ -9,7 +9,7 @@
   "post_parameters": null,
   "web_ui_url": null,
   "readme_url": "https://github.com/immich-app/immich/pkgs/container/immich-machine-learning",
-  "icon": "https://github.com/Fre5h-D/MOS-Templates/blob/main/icons/immich-machine-learning.png",
+  "icon": "https://cdn.jsdelivr.net/gh/selfhst/icons/png/immich-public-proxy.png",
   "category": [ "Media" ],
   "project": null,
   "support": "https://github.com/immich-app/immich/issues",
