@@ -9,7 +9,7 @@
   "post_parameters": null,
   "web_ui_url": null,
   "readme_url": "https://github.com/MariaDB/mariadb-docker",
-  "icon": "https://github.com/Fre5h-D/MOS-Templates/blob/main/icons/mariadb.png",
+  "icon": "https://cdn.jsdelivr.net/gh/selfhst/icons/png/mariadb.png",
   "category": [ "Productivity" ],
   "project": null,
   "support": "https://github.com/MariaDB/mariadb-docker/issues",
