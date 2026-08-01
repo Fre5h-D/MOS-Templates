@@ -7,7 +7,7 @@
   "privileged": false,
   "extra_parameters": "--restart=unless-stopped",
   "post_parameters": null,
-  "web_ui_url": "http://[IP]:[PORT:8000]/",
+  "web_ui_url": null,
   "readme_url": "https://github.com/valkey-io/valkey-container",
   "icon": "https://cdn.jsdelivr.net/gh/selfhst/icons/png/valkey.png",
   "category": [ "Utilities" ],
