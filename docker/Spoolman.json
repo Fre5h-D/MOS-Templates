@@ -20,7 +20,7 @@
       "mode": "rw",
       "host": "/mnt/internal/appdata/spoolman",
       "container": "/home/app/.local/share/spoolman",
-      "description": "Spoolman configuration, database, and settings."
+      "description": "Spoolman database, and settings."
     }
   ],
   "ports": [
