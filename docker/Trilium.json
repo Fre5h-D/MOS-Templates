@@ -1,46 +1,38 @@
 {
-  "name": "Spoolman",
-  "repo": "ghcr.io/donkie/spoolman:latest",
+  "name": "Trilium Notes",
+  "repo": "triliumnext/trilium:latest",
   "network": "bridge",
   "custom_ip": null,
   "default_shell": "bash",
   "privileged": false,
   "extra_parameters": "--restart=unless-stopped",
   "post_parameters": null,
-  "web_ui_url": "http://[IP]:[PORT:8000]/",
-  "readme_url": "https://github.com/Donkie/Spoolman",
-  "icon": "https://github.com/Fre5h-D/MOS-Templates/blob/main/icons/spoolman.png",
+  "web_ui_url": "http://[IP]:[PORT:8080]/",
+  "readme_url": "https://github.com/TriliumNext/Trilium",
+  "icon": "https://github.com/Fre5h-D/MOS-Templates/blob/main/icons/trilium.png",
   "category": [ "Productivity" ],
   "project": null,
-  "support": "https://github.com/Donkie/Spoolman/issues",
-  "description": "Spoolman is a self-hosted web service designed to help you efficiently manage your 3D printer filament spools and monitor their usage. It acts as a centralized database that seamlessly integrates with popular 3D printing software like OctoPrint and Klipper/Moonraker. When connected, it automatically updates spool weights as printing progresses, giving you real-time insights into filament usage.",
+  "support": "https://github.com/TriliumNext/Trilium/issues",
+  "description": "Trilium Notes is a hierarchical note-taking application with a focus on building a large personal knowledge base.",
    "paths": [
     {
-      "name": "Config",
+      "name": "Data",
       "mode": "rw",
-      "host": "/mnt/internal/appdata/spoolman",
-      "container": "/home/app/.local/share/spoolman",
-      "description": "Spoolman configuration, database, and settings."
+      "host": "/mnt/internal/appdata/trilium",
+      "container": "/home/node/trilium-data",
+      "description": "Trilium database and settings."
     }
   ],
   "ports": [
     {
       "name": "WebUI",
       "protocol": "tcp",
-      "host": "7912",
-      "container": "8000",
-      "description": ""
+      "host": "8080",
+      "container": "8080",
+      "description": null
     }
   ],
-  "variables": [
-    {
-      "name": "TZ",
-      "key": "TZ",
-      "value": "Europe/Vienna",
-      "mask": false,
-      "description": "Timezone for the container."
-    }
-  ],
+  "variables": [],
   "devices": [],
   "gpus": []
 }
