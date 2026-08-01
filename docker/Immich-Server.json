@@ -97,7 +97,7 @@
       "mask": false
     },
     {
-      "name": "Host Key 9",
+      "name": "ML Timeout",
       "key": "MACHINE_LEARNING_WORKER_TIMEOUT",
       "value": "600",
       "description": null,
