@@ -9,7 +9,7 @@
   "post_parameters": null,
   "web_ui_url": "http://[IP]:[PORT:3000]/",
   "readme_url": "https://github.com/C4illin/ConvertX",
-  "icon": "https://github.com/Fre5h-D/MOS-Templates/blob/main/icons/convertx.png",
+  "icon": "https://cdn.jsdelivr.net/gh/selfhst/icons/png/convertx.png",
   "category": [ "Utilities" ],
   "project": null,
   "support": "https://github.com/C4illin/ConvertX/issues",
