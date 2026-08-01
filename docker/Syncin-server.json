@@ -9,7 +9,7 @@
   "post_parameters": null,
   "web_ui_url": "http://[IP]:[PORT:8080]/",
   "readme_url": "https://github.com/Sync-in/server",
-  "icon": "https://github.com/Fre5h-D/MOS-Templates/blob/main/icons/sync-in.png",
+  "icon": "https://cdn.jsdelivr.net/gh/selfhst/icons/png/sync-in.png",
   "category": [ "Productivity" ],
   "project": null,
   "support": "https://github.com/Sync-in/server/issues",
