@@ -1,6 +1,6 @@
 {
   "name": "Immich-Postgres",
-  "repo": "ghcr.io/immich-app/postgres:18-vectorchord0.5.3-pgvector0.8.1",
+  "repo": "ghcr.io/immich-app/postgres:18-vectorchord1.1.1-pgvector0.8.5",
   "network": "bridge",
   "custom_ip": null,
   "default_shell": "bash",
