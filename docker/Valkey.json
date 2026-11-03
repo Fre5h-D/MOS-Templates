@@ -9,7 +9,7 @@
   "post_parameters": null,
   "web_ui_url": null,
   "readme_url": "https://github.com/valkey-io/valkey-container",
-  "icon": "https://cdn.jsdelivr.net/gh/selfhst/icons/png/valkey.png",
+  "icon": "https://raw.githubusercontent.com/Fre5h-D/MOS-templates/main/images/valkey.png",
   "category": [ "Utilities" ],
   "project": null,
   "support": "https://github.com/valkey-io/valkey-container/issues",
