@@ -1,0 +1,38 @@
+{
+  "name": "FilaBridge",
+  "repo": "ghcr.io/sargonas/filabridge:latest",
+  "network": "bridge",
+  "custom_ip": null,
+  "default_shell": "bash",
+  "privileged": false,
+  "extra_parameters": "--restart=unless-stopped",
+  "post_parameters": null,
+  "web_ui_url": "http://[IP]:[PORT:5000]/",
+  "readme_url": "https://github.com/sargonas/filabridge",
+  "icon": "https://raw.githubusercontent.com/Fre5h-D/MOS-templates/main/images/filabridge.png",
+  "category": [ "Productivity" ],
+  "project": null,
+  "support": "https://github.com/sargonas/filabridge/issues",
+  "description": "A self-hosted Go microservice that bridges PrusaLink-compatible and Bambu (in experimental mode) printers and Spoolman for (mostly) automatic filament inventory management. Originally designed for Prusa printers (CORE One, XL, MK4, etc.) but will work with any printer that supports the PrusaLink API and now Bambu printers on both Cloud and LAN-Only mode.",
+   "paths": [
+    {
+      "name": "App Data",
+      "mode": "rw",
+      "host": "/mnt/internal/appdata/filabridge",
+      "container": "/app/data",
+      "description": null
+    }
+  ],
+  "ports": [
+    {
+      "name": "WebUI",
+      "protocol": "tcp",
+      "host": "5000",
+      "container": "5000",
+      "description": null
+    }
+  ],
+  "variables": [],
+  "devices": [],
+  "gpus": []
+}
