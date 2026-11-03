@@ -9,7 +9,7 @@
   "post_parameters": null,
   "web_ui_url": "http://[IP]:[PORT:8080]/",
   "readme_url": "https://github.com/TriliumNext/Trilium",
-  "icon": "https://cdn.jsdelivr.net/gh/selfhst/icons/png/trilium-notes.png",
+  "icon": "https://raw.githubusercontent.com/Fre5h-D/MOS-templates/main/images/trilium-notes.png",
   "category": [ "Productivity" ],
   "project": null,
   "support": "https://github.com/TriliumNext/Trilium/issues",
